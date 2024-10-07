@@ -21,3 +21,11 @@ window.addEventLisener('resize', () => {})
 ```
 #### 1.5.2 Full screen
 
+### 1.6 GUI
+```
+import GUI from 'lil-gui'
+const gui = new GUI()
+```
+
+### 1.7 Textures
+
