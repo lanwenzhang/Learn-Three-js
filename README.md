@@ -1,4 +1,5 @@
 # Three-js-Journey
+This is the repository of [Three.js Journey](https://threejs-journey.com/) Lessons by Bruno Simon
 
 ## 1 Introduction
 
