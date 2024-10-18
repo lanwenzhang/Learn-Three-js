@@ -30,3 +30,28 @@ const gui = new GUI()
 
 ### 1.7 Textures
 
+## 2 Shaders
+### 2.1 Vertex Shader
+```
+uniform mat4 projectionMatrix;
+uniform mat4 viewMatrix;
+uniform mat4 modelMatrix;
+
+attribute vec3 position;
+
+void main()
+{
+  gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(position, 1.0);
+}
+```
+
+### 2.2 Fragment Shader
+```
+precision mediump float;
+
+void main()
+{
+  gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+}
+```
+
