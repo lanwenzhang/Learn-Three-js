@@ -1,4 +1,4 @@
-# Three-js-Journey
+# Learn-Three-js
 These are the learning notes of [Three.js Journey](https://threejs-journey.com/) Lessons by Bruno Simon
 
 ## 1 Introduction
